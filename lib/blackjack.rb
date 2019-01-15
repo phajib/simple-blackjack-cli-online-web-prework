@@ -43,7 +43,9 @@ def hit?
 end
 
 def invalid_command
-  # code invalid_command here
+  puts "Command invalid, please enter a valid command"
+  prompt_user
+  get_user_input
 end
 
 #####################################################
